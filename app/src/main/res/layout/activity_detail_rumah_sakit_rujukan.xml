@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbarSize="5dp"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailRumahSakitRujukanActivity">
+
+    <TextView
+        android:id="@+id/namaRS"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/value"
+        android:textColor = "?android:textColorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/alamatRS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/value"
+        android:textColor="?android:textColorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/alamatLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/alamatLabel"
+        app:layout_constraintTop_toTopOf="@+id/alamatLabel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/telpRS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/value"
+        android:textColor="?android:textColorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/telpLabel"
+        app:layout_constraintEnd_toEndOf="@+id/alamatRS"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="@+id/alamatRS"
+        app:layout_constraintTop_toBottomOf="@+id/alamatRS"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tempatTidurTersedia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/value"
+        android:textColor="?android:textColorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/statusLabel"
+        app:layout_constraintEnd_toEndOf="@+id/telpRS"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/telpRS"
+        app:layout_constraintTop_toBottomOf="@+id/telpRS"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/alamatLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/alamat"
+        android:textColor = "?android:textColorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/namaRS"
+        app:layout_constraintTop_toBottomOf="@+id/namaRS" />
+
+    <TextView
+        android:id="@+id/telpLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/no_telp"
+        android:textColor = "?android:textColorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/alamatLabel"
+        app:layout_constraintTop_toBottomOf="@+id/alamatRS" />
+
+    <TextView
+        android:id="@+id/statusLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/tempat_tidur_tersedia"
+        android:textColor = "?android:textColorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/telpLabel"
+        app:layout_constraintTop_toBottomOf="@+id/telpRS" />
+
+    <TextView
+        android:id="@+id/dataSource"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/data_diatas_berasal_dari"
+        android:textColor="#B56C6C6C"
+        app:layout_constraintEnd_toEndOf="@+id/tempatTidurTersedia"
+        app:layout_constraintStart_toStartOf="@+id/statusLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tempatTidurTersedia" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mapButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:drawableEnd="@drawable/ic_baseline_map_24"
+        android:text="@string/map"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataSource" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

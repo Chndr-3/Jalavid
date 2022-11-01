@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Jalavid</string>
+    <string name="headline">Kasus Covid DKI Jakarta</string>
+    <string name="update">Terakhir diupdate : %1$s</string>
+    <string name="terkonfirmasi">Terkonfirmasi</string>
+    <string name="jawaban">Jawaban :</string>
+    <string name="headline2">Informasi Bermanfaat Lainnya</string>
+    <string name="count">count</string>
+    <string name="meninggal_label">Meninggal</string>
+    <string name="dirawat_label">Dirawat</string>
+    <string name="fasilitas_kesehatan_vaksinasi">Fasilitas Kesehatan Vaksinasi</string>
+    <string name="detail_fasilitas_kesehatan_vaksinasi">Detail Fasilitas Kesehatan Vaksinasi</string>
+    <string name="rumah_sakit_rujukan">Rumah Sakit Rujukan</string>
+    <string name="detail_rumah_sakit_rujukan">Detail Rumah Sakit Rujukan</string>
+    <string name="tanya_jawab">Tanya Jawab\n\n</string>
+    <string name="mencegah_penularan_covid_19">Mencegah Penularan Covid-19</string>
+    <string name="value">value</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_telp">No telp</string>
+    <string name="status">Status</string>
+    <string name="jenis_faskes">Jenis Faskes</string>
+    <string name="wilayah">Wilayah:</string>
+    <string name="data_diatas_berasal_dari">Data diatas berasal dari data covid19.go.id dan diupdate secara berkala (tidak realtime)</string>
+    <string name="map">BUKA PETA</string>
+    <string name="map_title">PETA</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="data_diatas_berasal">Data diatas berasal dari %1$s dan diupdate secara berkala (tidak realtime)</string>
+
+    <string name="my_formatted_text">
+    <font color="#FF406B">Ja<font color="@color/black">karta</font></font>
+    <font color="#FF406B">La<font color="@color/black">wan</font></font>
+    <font color="#FF406B">Covid</font>
+     </string>
+    <string name="splash_image">splash image</string>
+    <string name="covid_image">covid_image</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="tempat_tidur_tersedia">Tempat Tidur Tersedia</string>
+    <string name="daftar_pertanyaan_yang_umum_ditanyakan">Daftar pertanyaan yang umum ditanyakan:</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="keluar">Keluar</string>
+    <string name="app_desc">JALAVID atau Jakarta Lawan Covid merupakan aplikasi yang menyediakan berbagai macam informasi mengenai Covid-19 di wilayah DKI Jakarta. Informasi yang disediakan berupa rumah sakit rujukan, fasilitas kesehatan vaksinasi, tanya jawab dan mencegah penularan Covid-19. Tujuannya adalah untuk membantu pengguna khususnya yang berada di wilayah DKI Jakarta dalam menghadapi pandemi Covid-19.</string>
+    <string name="chandrawjy391_gmail_com">chandrawjy391@gmail.com</string>
+    <string name="hubungi_developer">Hubungi Developer</string>
+    <string name="chandra_wijaya">Chandra Wijaya</string>
+    <string name="developer">Developer</string>
+
+    <string-array name="data_question">
+        <item>Apa manfaat yang saya dapat dengan melengkapi dosis vaksinasi?</item>
+        <item>Kenapa Harus melengkapi vaksin hingga dosis lanjutan (booster)?</item>
+        <item>Bagaimana bila saya terlambat melengkapi vaksinasi dosis kedua saya?</item>
+        <item>Kapan vaksin lanjutan (booster) dimulai?</item>
+        <item>Apakah vaksin booster gratis?</item>
+        <item>Kapan saya bisa mendapatkan vaksin booster?</item>
+        <item>Bagaimana cara mendapatkan vaksin booster?</item>
+        <item>Apakah saya bisa memilih jenis vaksin booster yang diterima?</item>
+        <item>Siapa saja yang berhak mendapatkan vaksin booster?</item>
+        <item>Jenis vaksin booster apa yang akan diberikan?</item>
+        <item>Apakah saya dapat vaksin lebih cepat dari jadwal</item>
+        <item>Saya termasuk kelompok prioritas tetapi tidak mendapatkan tiket di PeduliLindungi?</item>
+    </string-array>
+
+    <string-array name="data_answer">
+        <item>Data Kementerian Kesehatan menunjukkan bahwa 70% dari 8.230 pasien meninggal akibat COVID-19 belum menerima vaksinasi lengkap. Ini membuktikan bahwa vaksinasi lengkap dan booster mampu mengurangi risiko dirawat dan kematian. Yuk, lindungi diri kita dan orang-orang di sekitar kita, segera vaksinasi jika giliran kita sudah tiba.</item>
+        <item>Vaksinasi booster dapat meningkatkan imunitas hingga 2x lipat dibanding vaksinasi dosis kedua. Booster dapat melindungi orang tua dan kelompok masyarakat rentan/memiliki komorbid dari penularan COVID-19. Saat ini stok vaksin COVID-19 untuk booster lebih dari cukup, ayo segerakan dapat booster jika gilirannya sudah tiba.</item>
+        <item>a. Bagi sasaran yang mengalami drop out dalam rentang waktu kurang dari enam bulan dapat diberikan vaksin kedua dengan jenis vaksin yang berbeda sesuai ketersediaan di masing–masing daerah\n\nb. Bagi sasaran yang mengalami drop out dalam waktu lebih dari enam bulan, maka vaksinasi primer nya dilanjutkan kembali sebanyak 2 kali dan vaksinasi dapat menggunakan jenis vaksin yang berbeda dari vaksin semula\n\nc. Mengingat saat ini vaksin Sinovac yang didistribusikan jumlahnya terbatas dan diperuntukkan bagi sasaran anak usia 6 sampai dengan 11 tahun, maka sasaran yang drop out dapat menggunakan vaksin dengan jenis yang berbeda dan tersedia untuk melengkapi dosis keduanya dengan mengutamakan vaksin yang memiliki masa kadaluarsa terdekat</item>
+        <item>Vaksin booster diberikan untuk masyarakat umum mulai 12 Januari 2022.</item>
+        <item>Vaksin booster gratis untuk semua masyarakat.</item>
+        <item>Anda bisa mendapatkan vaksin booster setelah 6 bulan mendapatkan vaksin dosis kedua. Jadwal dan tiket vaksinasi akan muncul di aplikasi PeduliLindungi pada menu “Status Vaksinasi &amp; Hasil Tes Covid-19”.</item>
+        <item>Masyarakat umum berusia lebih dari 18 tahun dapat mengecek tiket dan jadwal mulai vaksinasi di website dan aplikasi PeduliLindungi. Tiket tersebut dapat digunakan di fasilitas kesehatan atau tempat vaksinasi terdekat pada waktu mulai vaksinasi ketiga yang sudah ditentukan (minimal 3 bulan setelah vaksinasi dosis kedua). Melalui website, masyarakat bisa mengunjungi pedulilindungi.id dan mengecek status dan tiket vaksinasi dengan memasukkan “Nama Lengkap” dan “NIK”, lalu klik periksa. Jika melalui aplikasi PeduliLindungi, masyarakat bisa mengikuti langkah-langkah berikut:\n\n1. Buka aplikasi PeduliLindungi\n\n2. Masuk dengan akun yang terdaftar\n\n3. Klik menu “Profil” dan pilih “Status Vaksinasi dan Hasil Tes Covid-19”\n\n4. Status dan jadwal vaksinasi booster akan muncul di akun\n\n5. Untuk cek tiket, masuk ke menu “Riwayat dan Tiket Vaksin”</item>
+        <item>Masyarakat tidak dapat memilih jenis vaksinasi booster. Jenis vaksin akan ditentukan oleh petugas kesehatan berdasarkan riwayat vaksin dosis 1 dan 2 serta ketersediaan vaksin di tempat layanan.</item>
+        <item>Semua masyarakat berhak mendapatkan vaksin booster. Namun untuk tahap pertama, vaksinasi booster untuk masyarakat umum diperuntukkan bagi orang lanjut usia (lansia) dan kelompok rentan (penderita imunokompromais).</item>
+        <item>Kombinasi vaksin booster yang saat ini diberikan berdasarkan pertimbangan para peneliti dalam dan luar negeri serta sudah dikonfirmasi oleh Badan POM dan ITAGI, meliputi:
+\n\na. Untuk sasaran dengan vaksin primer Sinovac dapat diberikan separuh dosis Astra Zeneca (0,25 ml), atau separuh dosis Pfizer (0,15 ml), atau dosis penuh Moderna (0,5 ml), atau dosis penuh Sinopharm (0,5 ml dosis), atau dosis penuh Sinovac (0,5 ml), atau dosis penuh Zifivax (0,5 ml).
+\n\nb. Untuk sasaran dengan vaksin primer Astra Zeneca dapat diberikan dosis penuh Astra Zeneca (0,5 ml), atau separuh dosis Pfizer (0,15 ml), atau separuh dosis Moderna (0,25 ml).\n\nc. Untuk sasaran dengan vaksin primer Pfizer dapat diberikan dosis penuh Pfizer (0,3 ml), atau separuh dosis Moderna (0,25 ml), atau dosis penuh Astra Zeneca (0,5 ml).\n\nd. Untuk sasaran dengan vaksin primer Moderna dapat diberikan separuh dosis Moderna (0,25 ml).\n\ne. Untuk sasaran dengan vaksin primer Janssen dapat diberikan separuh dosis Moderna (0,25 ml).\n\nf. Untuk sasaran dengan vaksin primer Sinopharm dapat diberikan dosis penuh Sinopharm (0,5 ml) atau dosis penuh Zifivax (0,5 ml).\n\nBila ada regimen dosis lanjutan yang baru akan disampaikan kemudian.</item>
+        <item>Tidak bisa. Jadwal yang tercantum pada aplikasi PeduliLindungi sudah disesuaikan dengan ketentuan pemerintah yang mengharuskan minimal 6 bulan dari dosis kedua.</item>
+        <item>Jika termasuk kelompok prioritas (lansia dan PBI) dan sudah vaksin dosis kedua minimal 6 bulan tetapi belum mendapatkan tiket dan jadwal vaksinasi di aplikasi PeduliLindungi, Anda bisa datang langsung ke fasilitas kesehatan atau tempat vaksinasi terdekat dengan membawa KTP dan surat bukti vaksinasi dosis 1 dan 2.</item>
+    </string-array>
+
+    <integer-array name="image">
+        <item>@drawable/socialdistancing</item>
+        <item>@drawable/mask</item>
+        <item>@drawable/landscape</item>
+        <item>@drawable/washinghands</item>
+        <item>@drawable/vaccine</item>
+        <item>@drawable/cough</item>
+        <item>@drawable/sick</item>
+    </integer-array>
+    <string-array name="prevention">
+        <item>Jaga Jarak</item>
+        <item>Gunakan Masker</item>
+        <item>Pilih Ruang Terbuka</item>
+        <item>Cuci Tangan</item>
+        <item>Vaksinasi</item>
+        <item>Tutup Mulut Saat Batuk</item>
+        <item>Tetap Di rumah Jika Sakit</item>
+    </string-array>
+    <string-array name="preventionDescription">
+        <item>Selalu jaga jarak aman dari orang lain (minimal 1 meter), meskipun mereka tidak tampak sakit</item>
+        <item>Kenakan masker di ruang publik, terutama di dalam ruangan atau jika pembatasan fisik tidak dimungkinkan.</item>
+        <item>Sebaiknya pilih ruang terbuka dan berventilasi baik. Buka jendela jika berada di dalam ruangan.</item>
+        <item>Cuci tangan Anda secara rutin. Gunakan sabun dan air, atau cairan pembersih tangan berbahan alkohol.</item>
+        <item>Ikuti vaksinasi ketika giliran Anda. Ikuti panduan setempat terkait vaksinasi.</item>
+        <item>Saat batuk atau bersin, tutup mulut dan hidung Anda dengan lengan atau tisu.</item>
+        <item>Jangan keluar rumah jika merasa tidak enak badan.</item>
+    </string-array>
+
+
+</resources>

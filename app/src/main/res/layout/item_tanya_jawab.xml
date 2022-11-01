@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/roboto_slab"
+            android:textAlignment="viewStart"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="15sp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            card_view:layout_constraintEnd_toStartOf="@+id/dropDown"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toEndOf="@+id/imageView2"
+            card_view:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:srcCompat="@drawable/ic_baseline_question_mark_24_pink" />
+
+        <ImageView
+            android:id="@+id/dropDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/question"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="@+id/question"
+            card_view:srcCompat="@drawable/ic_baseline_arrow_drop_down_24" />
+
+        <TextView
+            android:id="@+id/answerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="@string/jawaban"
+            android:textColor="@color/pink"
+            android:textSize="15sp"
+            android:visibility="gone"
+            card_view:layout_constraintEnd_toEndOf="@+id/imageView2"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="@+id/imageView2"
+            card_view:layout_constraintTop_toBottomOf="@+id/question" />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="0dp"
+            android:justificationMode="inter_word"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_slab"
+            android:visibility="gone"
+            card_view:layout_constraintEnd_toEndOf="@+id/dropDown"
+            card_view:layout_constraintStart_toStartOf="@+id/answerLabel"
+            card_view:layout_constraintTop_toBottomOf="@+id/answerLabel" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
